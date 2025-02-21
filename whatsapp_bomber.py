@@ -9,9 +9,9 @@ driver=webdriver.Chrome(executable_path=r'd:\chromedriver.exe') #Replace the pat
 driver.get('https://web.whatsapp.com/')
 
 wait=WebDriverWait(driver,600)
-contact="friends_name"    #Replace "friends_name" with the anme of your contact
+contact="+91 93728 05814"    #Replace "friends_name" with the anme of your contact
 
-message="hi"    #Replace it with your message
+message="teri maa randi mc"    #Replace it with your message
 
 sleep(20)
 
